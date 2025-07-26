@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ankit</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            position: relative;
+            background: linear-gradient(135deg, #ffe0c3 0%, #ffd3d3 100%);
+            border: 5px solid #ff7c7c;
+            border-radius: 25px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+            width: 500px;
+            padding: 32px 32px 24px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pin {
+            position: absolute;
+            top: -35px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #ff2b2b;
+            border-radius: 50%;
+            box-shadow: 2px 6px 18px rgba(0,0,0,0.18);
+            z-index: 2;
+        }
+        .title {
+            font-size: 2.4rem;
+            font-weight: bold;
+            margin-bottom: 18px;
+            background: linear-gradient(90deg, #ff7c7c 30%, #b1e57c 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .cake-img {
+            width: 140px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+            background: #fff;
+            margin-bottom: 18px;
+        }
+        .main-message {
+            font-size: 1.25rem;
+            color: #333;
+            margin-bottom: 24px;
+        }
+        .boxed-message {
+            background: #fff0f6;
+            border: 2px dotted #ffb6c1;
+            border-radius: 8px;
+            padding: 16px 18px;
+            font-size: 1.05rem;
+            color: #222;
+            margin-bottom: 28px;
+            width: 90%;
+        }
+        .surprise-btn {
+            background: linear-gradient(90deg, #ff7c7c 30%, #ffb86c 100%);
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 38px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            box-shadow: 2px 4px 12px rgba(0,0,0,0.16);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .surprise-btn:hover {
+            background: linear-gradient(90deg, #ffb86c 30%, #ff7c7c 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="pin"></div>
+        <div class="title">Happy Birthday Arun</div>
+        <img class="cake-img" src="https://img.freepik.com/free-photo/chocolate-cake-with-cherries-isolated-white-background_123827-20738.jpg?w=400" alt="Cake" />
+        <div class="main-message">Wishing you a day filled with happiness, laughter,<br>and sweet surprises!</div>
+        <div class="boxed-message">
+            Lots of love and blessings on your special day. May all your dreams come true. Keep smiling and shining always! <span style="font-size:1.2em">💖</span>
+        </div>
+        <button class="surprise-btn">Click for Surprise 🎁</button>
+    </div>
+</body>
+</html>
