@@ -1,0 +1,77 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 10px;
+  background: linear-gradient(120deg, #f3f6fb 0%, #e9f1fb 100%);
+  min-height: 100vh;
+}
+
+.card {
+  flex: 0 1 320px;
+  max-width: 340px;
+  min-width: 260px;
+}
+
+.card {
+  background: linear-gradient(135deg, #e3ecfc 0%, #f6fafd 100%);
+  border: 1.5px solid #dbeafe;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(30, 64, 175, 0.08), 0 1.5px 6px rgba(0,0,0,0.04);
+  padding: 26px 22px 18px 22px;
+  transition: transform 0.18s cubic-bezier(.4,2,.3,.7), box-shadow 0.18s cubic-bezier(.4,2,.3,.7);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-7px) scale(1.025);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16), 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #22223b;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.user-id {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.info-group {
+  margin-bottom: 10px;
+}
+
+.info-group label {
+  font-weight: bold;
+  color: #444;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.info-group p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #222;
+}
